@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Weather App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header>
+      <h1 id="header">My Weather App</h1>
+    </header>
+
+    <div class="main">
+
+      <div id="search">
+          <label for="cityName">City Name</label>
+          <input type="text" id="cityName">
+          <button type="button" id="button">Start Search</button>
+      </div>
+
+      <div id="loading"><p>Loading...</p></div>
+
+      <div id="weather">
+          <h1 id="weatherCity">City Name</h1>
+          <div id="weatherDescription">Weather Discription</div>
+          <div id="weatherTemp">Temperature</div>
+      </div>
+
+    </div>
+    <footer><i>Korentis Konstantinos 2018</i>
+      <p>JS practice</p>
+    </footer>
+  <script src="init.js"></script>
+  <script src="main.js"></script>
+  </body>
+</html>
